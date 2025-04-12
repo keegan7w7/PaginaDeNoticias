@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    line-height: 1.6;
+    background-color: #f5f5dc;
+    color: #a1a1a1;
+    padding-bottom: 50px;
+}
+
+/*Cabecera*/
+.cabeceraTitulo {
+    background-color: #e5e4dc;
+    color: #3a3a3a;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-family: monospace;
+}
+
+.cabeceraTitulo h1 {
+    font-size: 2.2rem;
+}
+
+/*Navegacion*/
+.menuNavegacion {
+    background-color: #5e5e5e;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #ccc ;
+}
+
+.listaCabecera {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 12px 0;
+}
+
+.listaCabecera li a {
+    font-family: monospace;
+    text-decoration: none;
+    color: #80cf00;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 15px;
+}
+
+.listaCabecera li a:hover {
+    color: #cefd82;
+}
+
+/*Contenido principal*/
+.noticiasPagina {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.noticiaPrin {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: #fffaf0;
+    border: 1px solid #ccc;
+}
+
+#noticia-img{
+    width: 100%;
+    max-height:250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.noticiaPrin h2 {
+    color: #1e40af;
+    margin-bottom: 15px;
+}
+
+.noticiaArticle h4 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #1e3a8a;
+}
+
+.noticiaArticle p {
+    margin-bottom: 8px;
+}
+
+/*Menu adicional*/
+.menuAdicional {
+    flex: 1;
+    background-color: #fffaf0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+}
+
+.menuAdicional h2 {
+    margin-bottom: 15px;
+    color: #1e40af;
+}
+
+.listaAdicional {
+    list-style: none;
+    padding-left: 0;
+}
+
+.listaAdicional li {
+    margin-bottom: 10px;
+}
+
+.listaAdicional li a {
+    text-decoration: none;
+    color: #4b608d;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.listaAdicional li a:hover {
+    color: #1e40af;
+}
+
+/*Pie de pagina*/
+footer {
+    background-color: #e5e4dc;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #000000;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
